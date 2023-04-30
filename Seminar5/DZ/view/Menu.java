@@ -1,8 +1,9 @@
+package Seminar5.DZ.view;
 
 import java.util.Scanner;
 
-import 5lesson.HW.controller.UserController;
-import 5lesson.HW.model.User;
+import Seminar5.DZ.controller.UserController;
+import Seminar5.DZ.model.User;
 
 public class Menu {
 	private static boolean play = true;

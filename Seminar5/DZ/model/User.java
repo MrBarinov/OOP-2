@@ -1,3 +1,4 @@
+package Seminar5.DZ.model;
 
 public class User {
 

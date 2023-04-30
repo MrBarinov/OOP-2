@@ -1,9 +1,10 @@
+package Seminar5.DZ.controller;
 
 import java.util.List;
 
-import 5lesson.HW.model.User;
-import 5lesson.HW.service.UserService;
-import 5lesson.HW.service.UserServiceImpl;
+import Seminar5.DZ.model.User;
+import Seminar5.DZ.service.UserService;
+import Seminar5.DZ.service.UserServiceImpl;
 
 public class UserController {
 
