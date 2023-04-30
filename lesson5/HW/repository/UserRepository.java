@@ -1,9 +1,9 @@
-package Seminar5.DZ.repository;
+package lesson5.HW.repository;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import Seminar5.DZ.model.User;
+import lesson5.HW.model.User;
 
 public class UserRepository {
 	private List<User> usersList = new ArrayList<>();
