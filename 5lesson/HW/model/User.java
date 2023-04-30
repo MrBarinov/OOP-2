@@ -1,5 +1,4 @@
 
-
 public class User {
 
 	private String name;
@@ -26,8 +25,8 @@ public class User {
 	public String toString() {
 		return "User {" +
 				"name = \'" + name + '\'' +
-				"surname = \'" + surname + '\'' +
-				"patronymic = \'" + patronymic + '\'' +
+				", surname = \'" + surname + '\'' +
+				", patronymic = \'" + patronymic + '\'' +
 				", balance = \'" + balance + '\'' +
 				'}';
 	}

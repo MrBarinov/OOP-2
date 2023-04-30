@@ -2,7 +2,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-import Seminar5.DZ.model.User;
+import 5lesson.HW.model.User;
 
 public class UserRepository {
 	private List<User> usersList = new ArrayList<>();
@@ -31,7 +31,11 @@ public class UserRepository {
 
 	public void removeFunds(int index, float funds) {
 		User current = getAllUsers().get(index);
-		current.setBalance(current.getBalance() - funds);
-		updateUser(index, current);
+		if ((current.getBalance() - funds) < 0) {
+			System.out.println("Баланс не может быть отрицательным!");
+		} else {
+			current.setBalance(current.getBalance() - funds);
+			updateUser(index, current);
+		}
 	}
 }

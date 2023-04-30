@@ -1,8 +1,8 @@
 
 // import java.util.Scanner;
 
-// import Seminar5.DZ.controller.UserController;
-// import Seminar5.DZ.model.User;
+// import 5lesson.HW.controller.UserController;
+// import 5lesson.HW.model.User;
 
 public class UserView {
 	// private final static int USERS_COUNT = 10;

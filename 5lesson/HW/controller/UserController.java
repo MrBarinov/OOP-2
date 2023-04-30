@@ -1,9 +1,9 @@
 
 import java.util.List;
 
-import Seminar5.DZ.model.User;
-import Seminar5.DZ.service.UserService;
-import Seminar5.DZ.service.UserServiceImpl;
+import 5lesson.HW.model.User;
+import 5lesson.HW.service.UserService;
+import 5lesson.HW.service.UserServiceImpl;
 
 public class UserController {
 

@@ -1,7 +1,8 @@
 
+
 import java.util.List;
 
-import Seminar5.DZ.model.User;
+import 5lesson.HW.model.User;
 
 public interface UserService {
 	void saveUser(User user);
