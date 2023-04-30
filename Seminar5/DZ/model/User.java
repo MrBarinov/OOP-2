@@ -1,4 +1,4 @@
-package lesson5.HW.model;
+package Seminar5.DZ.model;
 
 public class User {
 

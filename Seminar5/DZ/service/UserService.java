@@ -1,8 +1,8 @@
-package lesson5.HW.service;
+package Seminar5.DZ.service;
 
 import java.util.List;
 
-import lesson5.HW.model.User;
+import Seminar5.DZ.model.User;
 
 public interface UserService {
 	void saveUser(User user);

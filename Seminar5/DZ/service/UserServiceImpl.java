@@ -1,9 +1,9 @@
-package lesson5.HW.service;
+package Seminar5.DZ.service;
 
 import java.util.List;
 
-import lesson5.HW.model.User;
-import lesson5.HW.repository.UserRepository;
+import Seminar5.DZ.model.User;
+import Seminar5.DZ.repository.UserRepository;
 
 public class UserServiceImpl implements UserService {
 
